@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
- char g;
+ char g,a,e,i,o,u;
  clrscr
  scanf("%c",&g);
  if(g==a,e,i,o,u)

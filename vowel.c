@@ -4,7 +4,7 @@ void main()
 {
  char g;
  clrscr
- scanf("%c",&a);
+ scanf("%c",&g);
  if(g==a,e,i,o,u)
  printf("vowel"):
  else

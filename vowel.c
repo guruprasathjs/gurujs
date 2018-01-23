@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
- char g,a,e,i,o,u;
+ char g;
  clrscr
  scanf("%c",&g);
- if(g==a,e,i,o,u)
+ if(g=='a'||g=='e'||g=='i'||g=='o'||g=='u')
  printf("vowel"):
  else
  printf("consonant");

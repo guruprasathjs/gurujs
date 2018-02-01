@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
 long long x;
@@ -11,4 +12,5 @@ x /=10;
 ++y;
 }
 printf("no of digits is %d",y);
+  getch();
 }

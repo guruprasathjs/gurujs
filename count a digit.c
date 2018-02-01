@@ -1,12 +1,14 @@
 #include<stdio.h>
 void main()
 {
-    int a,i,count=0;
-    printf("Enter the integer:");
-    scanf("%d",&a);
-    for(i=0;a!=0;i++)
-    {
-    a=a/10;
-    }
-    printf("The number of digits in given integer is %d",i);
+long long x;
+int y=0;
+printf("enter the integer");
+scanf("%lld",&x);
+while(x !=0)
+{
+x /=10;
+++y;
+}
+printf("no of digits is %d",y);
 }

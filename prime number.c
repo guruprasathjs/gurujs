@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 void main()
 {
     int a,b,i,c;
@@ -20,4 +21,5 @@ void main()
         ++a;
         }
     return 0;
+    getch()
     }

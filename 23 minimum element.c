@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int min(int array[50],int n);
 int main(void) 
 {

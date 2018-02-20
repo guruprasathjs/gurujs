@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include<conio.h>
 
-int main(void) {
-
+int main(void)
+{
 	int n,a[100],i,temp,j,count1=0,p,f;
 	scanf("%d",&n);
 	if(n%2==0)
@@ -41,7 +42,6 @@ int main(void) {
 		}
 		printf("%.2f",(a[p]+a[f])/2.0);
 	}
-	
-			
+	getch();
 	return 0;
 }
